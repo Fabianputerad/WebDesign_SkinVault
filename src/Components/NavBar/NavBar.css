@@ -1,0 +1,64 @@
+nav {
+  background-color: #1b2838;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.container-fluid {
+  padding: 0px 40px;
+}
+
+.custom-modal {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.custom-modal-content {
+  background-color: #2c2f33;
+  color: #fff;
+
+}
+
+.custom-modal-content input[type='email'],
+.custom-modal-content input[type='password'],
+.custom-modal-content input[type='name'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #444;
+  color: #fff;
+}
+
+.custom-modal-content h6 {
+  margin-top: 20px;
+}
+
+.custom-modal-content .btnModal {
+  text-align: center;
+}
+
+.custom-modal-content .btnModal .signin-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4b9d7c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.custom-modal-content .toRegis {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.custom-modal-content .toRegis .text {
+  color: #888;
+  cursor: pointer;
+}
+
+.custom-modal-content .toRegis .text span {
+  color: #4b9d7c;
+  cursor: pointer;
+}

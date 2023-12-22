@@ -1,0 +1,22 @@
+/* SearchBar.css */
+.search-bar {
+  margin-top: 90px;
+  margin-left: 50px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #2f3136;
+  color: #fff;
+  outline: none;
+
+}
+
+.search-bar::placeholder {
+  color: #8e9297;
+}
+
+.search-bar:focus {
+  border: 1px solid #00adee;
+  box-shadow: 0 0 5px #00adee;
+}

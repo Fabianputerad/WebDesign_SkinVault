@@ -1,0 +1,18 @@
+.container {
+    
+    margin-top: 10px;
+    align-items: center;
+}
+
+.list-wrapper {
+    position: absolute;
+}
+
+.card {
+    background-image: linear-gradient(to right, #66c0f4, #2a475e);
+    width: 100vh;
+}
+
+.card-body {
+    color: white;
+}

@@ -1,0 +1,93 @@
+p {
+   color: white;
+}
+
+.container-carousel {
+   margin-top: 50px;
+   text-align: start;
+}
+
+.judul {
+   margin-top: 50px;
+   color: white;
+   font-weight: bold;
+}
+
+.slider {
+   height: 28rem;
+   width: 100%;
+   display: flex;
+   padding-top: 10px;
+}
+
+.sliderImg {
+   width: 62%;
+   height: 100%;
+}
+
+.Valo {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+.imgContent {
+   width: 8rem;
+}
+
+.SliderContent {
+   width: 38%;
+   height: 100%;
+   background-color: #0f1922;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.namaGame {
+   margin-top: 25px;
+}
+
+.imgContent {
+   margin: 5px;
+   padding: 5px;
+   width: 80%;
+   height: auto;
+}
+
+.isiImg {
+   height: 25%;
+   width: 100%;
+   padding-bottom: 4px;
+
+}
+
+.Isi {
+   width: 80%; /* Mengatur lebar gambar */
+   height: auto;
+   object-fit: cover;
+   margin-bottom: 5px;
+}
+
+.playNow {
+   font-size: 22px;
+   font-weight: 400;
+   margin-top: 20px;
+ }
+
+.Discount {
+   border-radius: 5px;
+   width: 8rem;
+   text-align: center;
+   margin-top: 20px;
+}
+.IsiImg {
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+ }
+
+
+.container-image-content{
+   
+}
