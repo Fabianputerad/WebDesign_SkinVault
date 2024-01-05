@@ -40,7 +40,7 @@ export default function Card({ game }) {
     <div className="container">
       <div className="row g-2">
         {games.map((game) => (
-          <div key={game.id} className="col-3">
+          <div key={game.id} className="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div className="card mb-5" style={{ width: "265px" }}>
               <img
                 src={game.imageUrl}

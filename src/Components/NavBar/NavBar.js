@@ -1,7 +1,7 @@
 import "./NavBar.css";
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
 import { auth } from "../../FirebaseConfig";
 import  logo from "../../assets/Logo_WD.png"
 
